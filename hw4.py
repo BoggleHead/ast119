@@ -8,6 +8,7 @@ from matplotlib.pyplot import *
 import urllib2
 import os
 from datetime import datetime
+import scipy.integrate as integ
 
 def fetch_file(
   url = "http://lasp.colorado.edu/lisird/tss/sorce_ssi.csv?&time>=2010-01-01&time<2010-02-01",
